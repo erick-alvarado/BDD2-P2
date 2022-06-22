@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DADEEA1B-341D-6579-916C-3B208FEC5DE8" name="Episode">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:40:04 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="284AA8A2-D224-D77D-48B1-628CD0E74700">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:40:40 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titleId" id="442B0F40-62B8-C23A-8831-C42E3CA6332F">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:42:22 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2A95822E-3422-5A80-7726-E8CAA5BAAC19" referredColumn="877518BB-F57F-AC1C-F909-1C66C7BE9A02"/>
+</associations>
+</Column>
+<Column name="season" id="736AA6F9-4D66-E6D6-5EF7-F64C799D9F53">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:41:57 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="episode" id="0FFC5116-A210-A870-F80A-B3EEFC9FEC5E">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:42:12 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E328EF9-DC0E-713C-7973-7D42E8E9DB32" name="Episode_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:40:40 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="284AA8A2-D224-D77D-48B1-628CD0E74700"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="976B3AC9-967B-B807-FFDE-4B2B3BF5A990" name="titleIdv2">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:42:22 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="442B0F40-62B8-C23A-8831-C42E3CA6332F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

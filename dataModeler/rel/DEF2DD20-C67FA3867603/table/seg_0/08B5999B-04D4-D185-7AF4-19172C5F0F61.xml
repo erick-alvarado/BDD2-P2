@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08B5999B-04D4-D185-7AF4-19172C5F0F61" name="Rating">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:42:51 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E140F4AC-F258-1983-7B95-18FFA6ECB53C">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:43:32 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titleId" id="D18C2F29-579A-53E6-2D41-B73EC86F6EBA">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:45:13 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B739059-C2A5-6788-DD0C-E8062D9993E2" referredColumn="877518BB-F57F-AC1C-F909-1C66C7BE9A02"/>
+</associations>
+</Column>
+<Column name="averageRating" id="FAE4A5B6-84EC-C5C9-1F43-BFB0E5BB6ECC">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:44:52 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numVotes" id="0BF9F430-0589-56D5-7F52-C84EAE250005">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:45:05 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55CB5869-E8EE-6CB1-240D-94BF1540CABD" name="Rating_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:43:32 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E140F4AC-F258-1983-7B95-18FFA6ECB53C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F7EF08E-515F-44C4-A713-316295F6BBFD" name="titleIdv3">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:45:13 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D18C2F29-579A-53E6-2D41-B73EC86F6EBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58B5A8E7-E78E-7F1A-EC20-E42EE10B4F09" name="Title">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:26:06 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="877518BB-F57F-AC1C-F909-1C66C7BE9A02">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:26:59 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primaryTitle" id="8CFBF242-E426-A914-D1BB-7D7AA1050370">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:26:59 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="originalTitle" id="19BF73F2-026F-AC49-80CD-423431B219D9">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:26:59 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isAdult" id="5F9BBAE5-2BE8-4556-7416-DA8BDD9FFDD6">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:27:19 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startYear" id="DA7883A6-F4EE-9EFF-8C93-BC3DE409CF70">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:27:28 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endYear" id="74F53365-4F70-18E6-AC1B-BABEF380F2A3">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:27:42 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="runtime" id="DA22FD99-5F80-42D6-1642-4635977244D6">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:28:26 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TitleTypeId" id="D74C53A7-FC2A-CE5E-CD09-1D4B07EE8054">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:29:07 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="883AAEA7-8283-0233-AD14-17F769795DF6" referredColumn="B95580E6-9FBC-0CD5-ADC2-896055156246"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DDD6544-19C8-579D-DE7B-872AA1F5DBF3" name="Title_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:26:59 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="877518BB-F57F-AC1C-F909-1C66C7BE9A02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E93357F6-2FB9-C340-FECC-C01DEEA9988E" name="titleTypeId">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:29:07 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D74C53A7-FC2A-CE5E-CD09-1D4B07EE8054"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

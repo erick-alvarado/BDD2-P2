@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AB6841D-606D-58D8-A5F4-3A70A92149EC" name="Name">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:46:43 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="05E2E0F8-F7B3-A8B8-FDE7-C73993BFC752">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:47:00 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primeryName" id="3511D18C-492C-84B0-E560-EC30CCA5CA0E">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:47:21 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birthYear" id="E2D44977-4BEB-051D-B51A-7F6245A99870">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:47:36 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="deathYear" id="FAEBF4B2-013C-A9F3-98ED-CE363BE014BC">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:47:48 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAC0D18D-6014-850B-DD53-BCC51735150B" name="Name_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:47:00 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05E2E0F8-F7B3-A8B8-FDE7-C73993BFC752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

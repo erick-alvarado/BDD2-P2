@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D77D77B-0A4B-3CF9-CD15-C8E82AA59D3B" name="TitleGenre">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:31:04 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="titleId" id="13550B4D-5A00-81CA-7E56-81E7F9B72060">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:31:31 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="444CB463-6862-8373-0D7D-CE80D00A118F" referredColumn="877518BB-F57F-AC1C-F909-1C66C7BE9A02"/>
+</associations>
+</Column>
+<Column name="genreId" id="B2A2C842-645C-E5FE-384D-4D478C0940E4">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:31:43 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF8E899C-17EC-9DAD-E2AB-C0748A2BCFFE" referredColumn="5E90B533-A250-9387-2E1F-70CF37134335"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE876331-6F6A-42D1-F967-F6653025BCC3" name="titleId">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:31:31 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13550B4D-5A00-81CA-7E56-81E7F9B72060"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E815B0E-6F9A-693F-EF80-437C277223E8" name="genreId">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:31:43 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2A2C842-645C-E5FE-384D-4D478C0940E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

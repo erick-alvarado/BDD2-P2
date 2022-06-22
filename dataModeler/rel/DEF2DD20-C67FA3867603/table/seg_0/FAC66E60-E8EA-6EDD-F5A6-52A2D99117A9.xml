@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FAC66E60-E8EA-6EDD-F5A6-52A2D99117A9" name="Director">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:51:41 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nameId" id="DCA9DF50-9179-48FE-3727-4D983A1F1F0D">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:52:11 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE8485DF-411A-19AC-0164-61B0F70AC626" referredColumn="05E2E0F8-F7B3-A8B8-FDE7-C73993BFC752"/>
+</associations>
+</Column>
+<Column name="titleId" id="575ABFB0-4220-1DF9-F00A-6E472C5AD298">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:51:54 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E37FD21B-865B-E5D3-6342-1BDA554AAB2E" referredColumn="877518BB-F57F-AC1C-F909-1C66C7BE9A02"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="202A4496-D337-0D0A-60F2-5AD437655CF0" name="titleIdv5">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:51:54 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="575ABFB0-4220-1DF9-F00A-6E472C5AD298"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E34E22D-4152-3A10-FA92-BEAB822D7821" name="nameIdv2">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:52:11 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCA9DF50-9179-48FE-3727-4D983A1F1F0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

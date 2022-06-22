@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4E0F750-2AE6-1B30-7B48-C30215087129" name="Region">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:22:47 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B7B287BE-FDFF-E5E7-7BDF-B6B900F38C3A">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:23:20 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5A4A29C5-6067-1E30-5DEF-D5B4D08CCF77">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:23:20 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DD3A6E5-C528-E5C6-7D2A-5A548D88AD8F" name="Region_PK">
+<createdBy>alexa</createdBy>
+<createdTime>2022-06-22 05:23:20 UTC</createdTime>
+<ownerDesignName>bases</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7B287BE-FDFF-E5E7-7BDF-B6B900F38C3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
