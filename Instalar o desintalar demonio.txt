@@ -1,0 +1,11 @@
+Descomprimir carpeta Demonio
+Ejecutar Developer Command Promp for vs 2022 (o segun su version)
+colocarse en la carpeta descomprimida Ejemplo CD C:/Demonio/
+
+Ejecutar comando para instalar 
+installutil DemonioBases.exe
+iniciar servicio
+
+Detener servicio
+Ejecutar comando para desinstalar
+installutil /u DemonioBases.exe
