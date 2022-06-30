@@ -23,5 +23,10 @@ insert into TitleGenre values (4,5)
 insert into TitleGenre values (5,5)
 
 
-select * from Title t inner join titleGenre tg on tg.titleId= t.id inner join Genre g ON g.id = tg.genreId
-select * from TitleGenre
+insert into Episode values (1,5, 1,1)
+insert into Episode values (2,5, 1,2)
+insert into Episode values (3,5, 1,3)
+insert into Episode values (4,5, 1,4)
+insert into Episode values (5,5, 1,5)
+
+select * from Episode
