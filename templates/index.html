@@ -1,0 +1,10 @@
+<ul>
+    {% for item in cur %}
+    <li>
+        <label>
+            <span>  ID:  {{item.id}}  <br>  primaryTitle:  {{item.primaryTitle}}  <br>  originalTitle:  {{item.originalTitle}} <br>  isAdult:  {{item.isAdult}}  
+                <br>  startYear:  {{item.startYear}} <br>  endYear:  {{item.endYear}}<br>  runTime:  {{item.runTime}}   </span>
+        </label>
+    </li>
+    {% endfor %}
+</ul>
